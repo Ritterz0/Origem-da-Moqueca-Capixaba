@@ -117,9 +117,13 @@ transition: transform 0.5s ease;
 background: url("../Imagens/moqueca-capixaba1.jpg") center/cover no-repeat;
 color: white;
 text-align: center;
-width:100%;
-padding: 100px 20px;
-height: 60vh
+width: 100%;
+padding: 120px 20px 60px 20px;
+min-height: 60vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 
 #home h1{
